@@ -129,3 +129,27 @@ nav li a:hover{
     text-transform: uppercase;
     line-height: 22.5px;
 }
+
+.links{
+    display: flex;
+    width: 100%;
+    background-color: #000;
+    align-items: center;
+    padding: 18px 0;
+}
+
+.s-links{
+    margin: 0 auto;
+    display: flex;
+}
+
+.link{
+    width: 260px;
+    text-align: center;
+
+}
+
+.links img{
+    margin: 0 10px;
+}
+
