@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+    margin: 0;
+    max-width: 1440px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    margin: 15px;
+    padding: 0;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background-color: #ffff;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li{
+    float: left;
+}
+
+nav li a{
+    font-size: Roboto, sans-serif;  
+    line-height: 21px;
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    margin: 12px 0;
+    padding: 15px 22px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav li a:hover{
+    color: #e5432d;
+
+}
+
+.more-info a {
+    width: 129px;
+    padding: 15px 0;
+    margin-bottom: 5px;
+}
+
+.more-info i{
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+
+.m-info-content{
+    width: 178px;
+    display: none;
+    padding: 15px 11px;
+}
+
+.m-info-content a{
+    display: block;
+    text-align: left;
+    text-transform: capitalize;
+    padding:0 0 15px 0;
+    margin: 0;
+}
+
+.right-nav {
+    display: flex;
+    float: right
+}
+
+.right-nav a{
+    padding: 15px 15px 15px 0;
+    font-size: 18px;
+}
+
+.main{
+    background-image: url("img/main.jpg");
+    height: 788px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.main-content{
+    position: relative;
+    display: block;
+    padding: 30px;
+    margin: 10px 377px;
+}
+
+.main-content h1{
+    font-size: 45px;
+    margin: 23px 0 0 0 ;
+    font-weight: 700;
+}
+
+.main-content p{
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    display: block;
+    margin: 11px 0 23px 0;
+}
+
+.main-content button{
+    font-family: inherit;
+    font-size: 15px;
+    background-color: #ff4a32;
+    color: #ffff;
+    padding: 5px 15px;
+    margin-right: 12px;
+    width: 200px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    line-height: 22.5px;
+}
