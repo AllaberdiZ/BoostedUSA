@@ -1,3 +1,3 @@
 The clone of BoostedUSA website...
 
-![Desktop](https://user-images.githubusercontent.com/74307688/152767951-6f64fedd-bece-48f3-9e83-7c73cf715c00.png)
+![q](https://user-images.githubusercontent.com/74307688/152768205-92a4752f-1515-4c64-8804-b1839a05c461.png)
