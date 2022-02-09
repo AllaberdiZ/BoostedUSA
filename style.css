@@ -180,3 +180,75 @@ nav li a:hover{
     left: 50%;
     transform: translateX(-50%);
 }
+
+.category{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.left{
+    width: 580px;
+    height: 580px;
+    margin: 0 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.right{
+    width: 580px;
+    height: 580px;
+    margin: 0 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.left img{
+    width: 580px; /* or any custom size */
+    height: 580px; 
+    object-fit: contain;
+    opacity: 0.8;
+
+}
+
+.right img{
+    width: 580px; /* or any custom size */
+    height: 580px; 
+    object-fit: contain;
+    opacity: 0.8;
+}
+
+.right .text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.left .text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.category .text{
+    color: #fff;
+}
+
+.category .text h1{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.category .text h3{
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.category .text i{
+    font-size: 35px;
+}
