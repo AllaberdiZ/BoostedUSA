@@ -193,6 +193,7 @@ nav li a:hover{
     margin: 0 10px;
     position: relative;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .right{
@@ -201,21 +202,31 @@ nav li a:hover{
     margin: 0 10px;
     position: relative;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .left img{
-    width: 580px; /* or any custom size */
-    height: 580px; 
+    width: 100%;
+    height: 100%;
     object-fit: contain;
     opacity: 0.8;
-
+    transition: transform .5s ease;
 }
 
 .right img{
-    width: 580px; /* or any custom size */
-    height: 580px; 
+    width: 100%;
+    height: 100%;
     object-fit: contain;
     opacity: 0.8;
+    transition: transform .5s ease;
+}
+
+.right:hover img{
+    transform: scale(1.1);
+}
+
+.left:hover img{
+    transform: scale(1.1);
 }
 
 .right .text{
