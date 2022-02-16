@@ -316,3 +316,58 @@ nav li a:hover{
 .skateboards-text button:hover{
     background-color: #606060;
 }
+
+.boosted-rev{
+    display: flex;
+    padding: 45px 75px;
+    position: relative;
+}
+
+.revs{
+    position: relative;
+    width: 32%;
+    height: 380px;
+    margin: 0 10px;
+}
+
+.rev-image1{
+    background-image: url(img/boosted-rev2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rev-image2{
+    background-image: url(img/boosted-rev1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rev-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+    margin: 0 10px
+}
+
+.rev-text p{
+    margin: ;
+    font-size: 15px;
+    line-height: 22.5px;
+}
+
+.rev-text button{
+    padding: 5px 15px;
+    width: 100px;
+    background-color: #ff4a32;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
