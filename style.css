@@ -367,6 +367,9 @@ nav li a:hover{
     font-size: 15px;
     border-radius: 15px;
     cursor: pointer;
+}
 
+.rev-text button:hover{
+    background-color: #606060;
 }
 
