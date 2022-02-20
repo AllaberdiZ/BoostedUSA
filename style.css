@@ -437,7 +437,7 @@ nav li a:hover{
     display: flex;
     position: relative;
     justify-content: center;
-    margin: 20px 0;
+    margin: 20px 0 0 0;
     overflow: hidden;
 }
 
@@ -452,4 +452,62 @@ nav li a:hover{
     position: relative;
 }
 
+.accessories-section{
+    padding: 20px 0 30px 0;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
 
+.accessories-section h1{
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.accessories-section .devider{
+    width: 70px;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #cfcfcf;
+    margin: 30px 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.accessories{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+}
+
+.accessory{
+    margin: 0 10px;
+    width: 173px;
+    position: relative;
+}
+
+.accessory img{
+    width: 173px;
+    width: 173px;
+}
+
+.accessory p.name{
+    color:#ff2121;
+}
+
+.accessory p{
+    padding-top: 3px;
+    margin: 0;
+    font-size: 15px;
+}
+
+.accessory .line{
+    text-decoration: line-through;
+    color: #ff6b6b;
+}
