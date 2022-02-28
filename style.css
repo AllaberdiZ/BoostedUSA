@@ -5,6 +5,8 @@ body{
     margin: 0;
     max-width: 1440px;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+
 }
 
 .logo {
@@ -510,4 +512,40 @@ nav li a:hover{
 .accessory .line{
     text-decoration: line-through;
     color: #ff6b6b;
+}
+
+.black-section{
+    position: relative;
+    background-color: #000;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    padding: 15px 0 35px 0;
+}
+
+.black-section .go{
+    background-color: #000;
+    position: relative;
+    display: block;
+    padding: 20px;
+    margin: 0 10px;
+    width: 20%;
+    color: #fff;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}
+
+.go img{
+    width: 82px;
+}
+
+.black-section .go h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 0 0 23px 0;
+}
+
+.black-section .go p{
+    font-size: 15px;
 }
