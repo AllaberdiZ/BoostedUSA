@@ -549,3 +549,56 @@ nav li a:hover{
 .black-section .go p{
     font-size: 15px;
 }
+
+.footer-contents{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 0;
+    margin: 0 65px;
+}
+
+.footer-content{
+    width: 33%;
+    display: inline;
+}
+
+.footer-content h2{
+    font-size: 20px;
+}
+
+.second h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.second a{
+    text-decoration: none;
+    display: block;
+    color: #000;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.second a:hover{
+    color: #ff4a32;
+}
+
+.third h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.third p{
+    font-size: 14px;
+    margin: 0;
+}
+
+.btm{
+    margin-top: 30px;
+}
+
+.btm p{
+    margin-bottom: 2px;
+}
