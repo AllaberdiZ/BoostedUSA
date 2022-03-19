@@ -550,6 +550,10 @@ nav li a:hover{
     font-size: 15px;
 }
 
+.footer{
+    background-color: #f7f7f7;
+}
+
 .footer-contents{
     display: flex;
     flex-direction: row;
@@ -603,3 +607,41 @@ nav li a:hover{
     margin-bottom: 2px;
 }
 
+.fo-links{
+    width: 100%;
+    padding: 20px 70px;
+    display: flex;
+    background-color: #fff;
+}
+
+.fo-text p{
+    font-size: 12.5px;
+}
+
+.fo-text a{
+    text-decoration: none;
+    color: #ff2121;
+}
+
+
+.icons{
+    position: absolute;
+    right: 0;
+    margin-right: 70px;
+}
+
+
+.icons img{
+    height: 20px;
+    width: 35px;
+    padding: 1px;
+    transform: translateY(25%);
+}
+
+.icons .border{
+    position: relative;
+    width: 45px;
+    height: 20px;
+    border: 0.1px solid #dadada;
+    border-radius: 5px;
+}
